@@ -5,7 +5,8 @@ let $box2 = document.getElementById('box-2')
 let box2Anim = anime({
   targets: $box2,
   translateX: [0, '80vw'],
-  rotate: [0, 360 * 5],
+  height: ['10vw', '30vw'],
+  width: ['10vw', '30vw'],
   autoplay: false,
   easing: 'linear'
 })
